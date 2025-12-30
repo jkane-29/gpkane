@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - George Kane</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 1.8em;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 8px 16px;
+            border: 1px solid white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .about-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .about-header h2 {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #222;
+        }
+
+        .profile-section {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .profile-image {
+            flex-shrink: 0;
+        }
+
+        .profile-image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .profile-content {
+            flex-grow: 1;
+        }
+
+        .profile-content h3 {
+            font-size: 2em;
+            font-weight: 400;
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        .profile-content p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .content-section {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .content-section h3 {
+            font-size: 1.8em;
+            font-weight: 400;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: #444;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 80px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .about-header h2 {
+                font-size: 2em;
+            }
+
+            .profile-section {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 25px;
+            }
+
+            .profile-image img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .content-section {
+                padding: 30px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>ABOUT ME</h1>
+            <a href="index.html">← Back to Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="about-header">
+            <h2>Get to Know George Kane</h2>
+        </div>
+
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="https://via.placeholder.com/250/333333/ffffff?text=George+Kane" alt="George Kane">
+            </div>
+            <div class="profile-content">
+                <h3>George Kane</h3>
+                <p>I'm a videographer and comedian based in [Location], combining my passion for visual storytelling with a love for making people laugh. My work spans across multiple creative disciplines, from professional video production to live stand-up performances.</p>
+                <p>I believe in the power of storytelling to connect people, whether through the lens of a camera or the spotlight of a comedy stage.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h3>My Journey</h3>
+            <p>My creative journey began with a fascination for both cinema and comedy. I discovered early on that I loved being behind the camera just as much as I enjoyed performing in front of an audience. This dual passion has shaped my unique perspective as both a filmmaker and entertainer.</p>
+            <p>Throughout my career, I've worked on various video production projects while simultaneously developing my voice as a comedian. Each discipline informs the other - my comedic sensibility enhances my filmmaking, while my technical skills in video production help me create better comedy content.</p>
+            <p>I'm constantly learning, growing, and pushing myself to explore new creative territories. Whether I'm editing a video at 2 AM or writing new material for an upcoming show, I'm driven by the joy of creating something that resonates with people.</p>
+        </div>
+
+        <div class="content-section">
+            <h3>What I Do</h3>
+            <p>As a videographer, I specialize in creating compelling visual content that tells stories effectively. I handle everything from concept development to post-production, ensuring every project receives the attention and creativity it deserves.</p>
+            <p>As a comedian, I perform regularly at comedy clubs and open mics, constantly refining my material and stage presence. My comedy style reflects my unique observations and experiences, blending clever wordplay with relatable storytelling.</p>
+            <p>I'm always open to new collaborations, projects, and opportunities to create. If you're interested in working together or just want to chat about filmmaking or comedy, feel free to reach out!</p>
+        </div>
+
+        <div class="content-section">
+            <h3>Let's Connect</h3>
+            <p>I'd love to hear from you! Whether you're interested in collaborating on a project, booking me for a performance, or just want to say hello, don't hesitate to get in touch.</p>
+            <div class="social-links">
+                <a href="mailto:email@example.com">Email Me</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 George Kane Productions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

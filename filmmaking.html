@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmmaking - George Kane</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 1.8em;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 8px 16px;
+            border: 1px solid white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .page-title h2 {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #222;
+        }
+
+        .page-title p {
+            font-size: 1.1em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .video-section {
+            margin-bottom: 60px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-commentary {
+            padding: 30px;
+        }
+
+        .video-commentary h3 {
+            font-size: 1.5em;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        .video-commentary p {
+            font-size: 1em;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 80px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .page-title h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>FILMMAKING</h1>
+            <a href="index.html">← Back to Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="page-title">
+            <h2>Filmmaking Portfolio</h2>
+            <p>Professional video production and cinematography</p>
+        </div>
+
+        <!-- Video 1 - Replace the src with actual YouTube embed URL -->
+        <div class="video-section">
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Film Project 1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-commentary">
+                <h3>Project Title 1</h3>
+                <p>Share details about this filmmaking project. Describe your role in the production, the creative vision, technical challenges you overcame, and what you learned from the experience. Highlight any unique cinematography techniques or storytelling approaches used.</p>
+            </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-section">
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Film Project 2"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-commentary">
+                <h3>Project Title 2</h3>
+                <p>Add commentary about your second filmmaking project. Discuss the collaboration with other creatives, the equipment and software used, and how this project showcases your videography skills. What story were you trying to tell?</p>
+            </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-section">
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Film Project 3"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-commentary">
+                <h3>Project Title 3</h3>
+                <p>Commentary for your third video project. Explain what makes this piece special, the production timeline, any interesting behind-the-scenes moments, and how it reflects your growth as a filmmaker and videographer.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 George Kane Productions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

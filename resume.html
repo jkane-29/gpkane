@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - George Kane</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 1.8em;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 8px 16px;
+            border: 1px solid white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .resume-header {
+            text-align: center;
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .resume-header h2 {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        .resume-header p {
+            font-size: 1.1em;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .resume-section {
+            background: white;
+            border-radius: 8px;
+            padding: 35px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        .resume-section h3 {
+            font-size: 1.6em;
+            font-weight: 400;
+            color: #222;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .resume-item {
+            margin-bottom: 25px;
+        }
+
+        .resume-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .resume-item h4 {
+            font-size: 1.3em;
+            font-weight: 500;
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        .resume-item .position {
+            font-size: 1.1em;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        .resume-item .date {
+            font-size: 0.95em;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .resume-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .resume-item li {
+            font-size: 1em;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background-color: #222;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 80px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .resume-header h2 {
+                font-size: 2em;
+            }
+
+            .resume-section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>RESUME</h1>
+            <a href="index.html">← Back to Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="resume-header">
+            <h2>George Kane</h2>
+            <p>Videographer & Comedian</p>
+            <p>email@example.com | (123) 456-7890 | Location</p>
+        </div>
+
+        <div class="resume-section">
+            <h3>Professional Summary</h3>
+            <p style="font-size: 1.05em; line-height: 1.7; color: #555;">
+                Creative videographer and comedian with expertise in video production, cinematography, and live performance. Skilled in storytelling through multiple mediums with a unique perspective that blends humor and visual artistry. Passionate about creating engaging content that entertains and inspires.
+            </p>
+        </div>
+
+        <div class="resume-section">
+            <h3>Experience</h3>
+
+            <div class="resume-item">
+                <h4>Company Name</h4>
+                <div class="position">Videographer / Video Editor</div>
+                <div class="date">January 2023 - Present</div>
+                <ul>
+                    <li>Produced and edited high-quality video content for various clients and projects</li>
+                    <li>Managed full production pipeline from concept to final delivery</li>
+                    <li>Collaborated with creative teams to develop compelling visual narratives</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <h4>Previous Company</h4>
+                <div class="position">Production Assistant</div>
+                <div class="date">June 2021 - December 2022</div>
+                <ul>
+                    <li>Assisted in various aspects of video production and post-production</li>
+                    <li>Operated cameras, lighting, and audio equipment on set</li>
+                    <li>Supported editing team with organizing footage and project files</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h3>Education</h3>
+
+            <div class="resume-item">
+                <h4>University Name</h4>
+                <div class="position">Degree in Film/Media Studies</div>
+                <div class="date">Graduated 2021</div>
+                <ul>
+                    <li>Focused on cinematography, editing, and narrative storytelling</li>
+                    <li>Completed multiple short film projects showcased at student festivals</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h3>Skills</h3>
+            <div class="skills-list">
+                <span class="skill-tag">Video Production</span>
+                <span class="skill-tag">Cinematography</span>
+                <span class="skill-tag">Video Editing</span>
+                <span class="skill-tag">Adobe Premiere Pro</span>
+                <span class="skill-tag">Final Cut Pro</span>
+                <span class="skill-tag">After Effects</span>
+                <span class="skill-tag">Color Grading</span>
+                <span class="skill-tag">Sound Design</span>
+                <span class="skill-tag">Stand-Up Comedy</span>
+                <span class="skill-tag">Scriptwriting</span>
+                <span class="skill-tag">Storytelling</span>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h3>Performances & Achievements</h3>
+
+            <div class="resume-item">
+                <h4>Stand-Up Comedy</h4>
+                <ul>
+                    <li>Performed at various comedy clubs and open mic nights</li>
+                    <li>Developed original comedic material and stage presence</li>
+                    <li>Built audience following through live performances and online content</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 George Kane Productions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
