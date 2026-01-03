@@ -1,196 +1,22 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>George Kane - Videographer & Comedian</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #222;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        header h1 {
-            font-size: 2.5em;
-            font-weight: 300;
-            letter-spacing: 2px;
-        }
-
-        header p {
-            font-size: 1.2em;
-            font-weight: 300;
-            margin-top: 10px;
-            color: #ccc;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 60px auto;
-            padding: 0 20px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-
-        .grid-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
-            aspect-ratio: 16 / 9;
-        }
-
-        .grid-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-        }
-
-        .grid-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-
-        .grid-item-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-            padding: 30px 20px 20px;
-            color: white;
-        }
-
-        .grid-item h2 {
-            font-size: 1.8em;
-            font-weight: 400;
-            letter-spacing: 1px;
-        }
-
-        .grid-item p {
-            font-size: 0.95em;
-            margin-top: 8px;
-            opacity: 0.9;
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 80px;
-        }
-
-        footer p {
-            font-size: 0.9em;
-            color: #ccc;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-
-            .grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>GEORGE KANE</h1>
-        <p>Videographer & Comedian</p>
-    </header>
 
-    <div class="container">
-        <div class="grid">
-            <a href="standup.html" style="text-decoration: none; color: inherit;">
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/600x400/e74c3c/ffffff?text=Stand-Up" alt="Stand-Up Comedy">
-                    <div class="grid-item-overlay">
-                        <h2>Stand-Up</h2>
-                        <p>Comedy performances and live shows</p>
-                    </div>
-                </div>
-            </a>
+  <p>Hello, world!</p>
 
-            <a href="filmmaking.html" style="text-decoration: none; color: inherit;">
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/600x400/3498db/ffffff?text=Filmmaking" alt="Filmmaking">
-                    <div class="grid-item-overlay">
-                        <h2>Filmmaking</h2>
-                        <p>Professional video production work</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="classprojects.html" style="text-decoration: none; color: inherit;">
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/600x400/2ecc71/ffffff?text=Class+Projects" alt="Class Projects">
-                    <div class="grid-item-overlay">
-                        <h2>Class Projects</h2>
-                        <p>Academic film and video projects</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="writing.html" style="text-decoration: none; color: inherit;">
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/600x400/f39c12/ffffff?text=Writing" alt="Writing">
-                    <div class="grid-item-overlay">
-                        <h2>Writing</h2>
-                        <p>Scripts, articles, and creative writing</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="resume.html" style="text-decoration: none; color: inherit;">
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/600x400/9b59b6/ffffff?text=Resume" alt="Resume">
-                    <div class="grid-item-overlay">
-                        <h2>Resume</h2>
-                        <p>Professional experience and credentials</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="aboutme.html" style="text-decoration: none; color: inherit;">
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/600x400/1abc9c/ffffff?text=About+Me" alt="About Me">
-                    <div class="grid-item-overlay">
-                        <h2>About Me</h2>
-                        <p>Get to know George Kane</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 George Kane Productions. All rights reserved.</p>
-    </footer>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
