@@ -59,16 +59,32 @@ const about = {
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
+// YouTube videos to display
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "Recent Videos",
+  videos: [
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 1",
+      description: "Description for your first video"
+    },
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 2",
+      description: "Description for your second video"
+    },
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 3",
+      description: "Description for your third video"
+    },
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 4",
+      description: "Description for your fourth video"
+    }
+  ]
 };
 
 // Leadership SECTION
