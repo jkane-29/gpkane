@@ -62,7 +62,35 @@ const about = {
 // YouTube videos to display
 const repos = {
   show: true,
-  heading: "Recent Videos",
+  heading: "Filmmaking",
+  videos: [
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 1",
+      description: "Description for your first video"
+    },
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 2",
+      description: "Description for your second video"
+    },
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 3",
+      description: "Description for your third video"
+    },
+    {
+      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
+      title: "Video Title 4",
+      description: "Description for your fourth video"
+    }
+  ]
+};
+
+// STAND-UP SECTION
+const standup = {
+  show: true,
+  heading: "Stand-up",
   videos: [
     {
       id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
@@ -168,4 +196,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, standup, skills, leadership, getInTouch, experiences };

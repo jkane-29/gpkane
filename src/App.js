@@ -5,6 +5,7 @@ import {
   mainBody,
   about,
   repos,
+  standup,
   leadership,
   skills,
   getInTouch,
@@ -51,6 +52,12 @@ const Home = React.forwardRef((props, ref) => {
         <Project
           heading={repos.heading}
           videos={repos.videos}
+        />
+      )}
+      {standup.show && (
+        <Project
+          heading={standup.heading}
+          videos={standup.videos}
         />
       )}
       {leadership.show && (
