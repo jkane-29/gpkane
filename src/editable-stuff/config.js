@@ -93,9 +93,9 @@ const standup = {
   heading: "Stand-up",
   videos: [
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 1",
-      description: "Description for your first video"
+      id: "ZuSY8Mtb208",
+      title: "Bryan Leconte Stand-Up",
+      description: "Stand-up comedy performance"
     },
     {
       id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
