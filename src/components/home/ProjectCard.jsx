@@ -6,18 +6,26 @@ const ProjectCard = ({ value }) => {
   const { id, title, description } = value;
 
   // YouTube thumbnail URL (using maxresdefault for high quality)
-  const thumbnailUrl = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+  const thumbnailUrl = `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
   const videoUrl = `https://www.youtube.com/watch?v=${id}`;
 
   return (
     <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
-        <a href={videoUrl} target="_blank" rel="noopener noreferrer">
+      <Card className="card shadow-lg p-3 mb-3 bg-white rounded">
+        <a href={videoUrl} target="_blank" rel="noopener noreferrer" style={{ position: 'relative', paddingTop: '56.25%', display: 'block', overflow: 'hidden' }}>
           <Card.Img
             variant="top"
             src={thumbnailUrl}
             alt={title}
-            style={{ cursor: 'pointer' }}
+            style={{
+              cursor: 'pointer',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover'
+            }}
           />
         </a>
         <Card.Body>

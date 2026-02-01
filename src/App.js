@@ -1,4 +1,4 @@
-import React from "react";
+cimport React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
   navBar,
@@ -58,6 +58,7 @@ const Home = React.forwardRef((props, ref) => {
         <Project
           heading={standup.heading}
           videos={standup.videos}
+          id="standup"
         />
       )}
       {leadership.show && (

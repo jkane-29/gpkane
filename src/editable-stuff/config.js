@@ -12,24 +12,20 @@ const mainBody = {
   message: " Videographer and comedian. ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      image: "fa-youtube",
+      url: "https://www.youtube.com/@yourchannel",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-tiktok",
+      url: "https://www.tiktok.com/@yourusername",
     },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/hashirshoaeb/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fa-envelope",
+      url: "mailto:your.email@example.com",
     },
   ],
 };
@@ -65,24 +61,24 @@ const repos = {
   heading: "Filmmaking",
   videos: [
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 1",
-      description: "Description for your first video"
+      id: "jZDfP1Zewh4",
+      title: "CALL 1-800 ROOMMATE!! FOR MORE INFO",
+      description: "Comedy sketch"
     },
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 2",
-      description: "Description for your second video"
+      id: "m2TtTeFXC2g",
+      title: "When the beat goes hard",
+      description: "Music video"
     },
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 3",
-      description: "Description for your third video"
+      id: "o-9IUC0iQcM",
+      title: "Buddies - Store scene",
+      description: "Short film scene"
     },
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 4",
-      description: "Description for your fourth video"
+      id: "9iVkEGwLBFo",
+      title: "A relatable YouTube video",
+      description: "Comedy video"
     }
   ]
 };
@@ -98,19 +94,19 @@ const standup = {
       description: "Stand-up comedy performance"
     },
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 2",
-      description: "Description for your second video"
+      id: "TVJZi67Q8-o",
+      title: "Breanne Wilhite vs Lovell Black: MILWAUKEE ROAST BATTLE Bronze Medal Battle",
+      description: "Milwaukee Roast Battle Bronze Medal Battle"
     },
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 3",
-      description: "Description for your third video"
+      id: "qoN72G67kqw",
+      title: "Owen Joyner vs. Matt Jordan",
+      description: "Roast battle performance"
     },
     {
-      id: "dQw4w9WgXcQ", // Replace with your YouTube video ID
-      title: "Video Title 4",
-      description: "Description for your fourth video"
+      id: "TpGs2munfnw",
+      title: "Breanne Wilhite VS Bre Kalhorn | Milwaukee Roast Battle | RBL",
+      description: "Milwaukee Roast Battle performance"
     }
   ]
 };
@@ -144,14 +140,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Camera Operation", value: 90 },
+    { name: "Lighting", value: 85 },
+    { name: "Audio Recording", value: 80 },
+    { name: "Composition & Framing", value: 90 },
+    { name: "Video Editing", value: 95 },
+    { name: "Color Correction & Grading", value: 85 },
+    { name: "Motion Graphics", value: 75 },
+    { name: "Exporting & Encoding", value: 85 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },

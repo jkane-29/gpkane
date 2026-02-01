@@ -4,12 +4,12 @@ import { Jumbotron } from "./migration";
 import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 
-const Project = ({ heading, videos }) => {
+const Project = ({ heading, videos, id = "projects" }) => {
   return (
-    <Jumbotron fluid id="projects" className="bg-light m-0">
-      <Container className="">
-        <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row>
+    <Jumbotron fluid id={id} className="bg-light m-0" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
+      <Container className="px-3 py-0">
+        <h2 className="display-4 py-3 text-center">{heading}</h2>
+        <Row className="mb-0">
           {videos && videos.length > 0 ? (
             videos.map((video, index) => (
               <ProjectCard
