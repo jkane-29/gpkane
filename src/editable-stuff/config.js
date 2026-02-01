@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/georgekane.png"),
   imageSize: 375,
   message:
-    "My name is George Kane, I'm a current student at Marquette University, videographer, and comedian.",
+    "George Kane is a senior digital media student at Marquette University. He has a passion for filmmaking, video-editing and writing. Most of his work experience involves shooting/editing personal projects, ranging from stand-up comedy sets to short films. Overall, he's renowned as a cool dude, mostly by people you wouldn't know. He is not going to say their names because he respects their privacy. But just know that they exist. Besides hanging out with his many friends, George does comedy. He does comedy because it is his favorite thing. That is all. ",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
